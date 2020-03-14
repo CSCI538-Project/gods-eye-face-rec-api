@@ -1,15 +1,23 @@
-This program takes file path of the image as input (line no 9) and returns a json response
+# God's Eye Face Recognition API
+This project is a helper code to demonstrates the use of Azure Face API. 
 
-If no face found:
+## Requirements
+| Language      | Version |
+| --------- | -----:|
+| Python  | 3.7+ |
+
+## Response 
+
+Failure: (Face not detected)
 ```json
 {
    "status": "Fail"
 }
 ```
-If face detected:
+Success:
 ```json
 {
    "status": "Ok",
-   "faceId": "f96b434f-501b-423c-8f91-eeef233d0026"
+   "faceId": "e993ac94-fb05-4530-b3eb-cbdb59681500"
 }
 ```
